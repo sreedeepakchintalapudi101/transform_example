@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1 {
+            transform: translateX(100px) translateY(100px);
+            transform: scaleX(0.5) scaleY(0.5);
+            transform: rotateX(45deg) rotateY(45deg);
+            transform: skewX(30deg);
+            transform: skewY(30deg);
+        }
+
+        .item2 {
+            transform: translate(100px, 100px);
+            transform: scale(0.5, 0.5);
+            transform: rotate(45deg);
+            transform: skew(30deg);
+        }
+
+        .item3 {
+            box-shadow: 10px 10px 5px inset;
+            transform: translate3d(100px, 100px, 100px);
+            transform: scale3d(0.5, 0.5, 0.5);
+            transform: rotate3d(-1,2,-1, 45deg);
+            transform: perspective(400px);
+        }
+
+        .item4 {
+            transform: matrix(1, 0.2, 0.3, 1, 50, 100);
+        }
+    </style>
+</head>
+<body>
+    <div class="items item1">
+        <img src="./streetart.jpg" alt="Street Art 1" height="400px" width="400px">
+    </div>
+    <div class="items item2">
+        <img src="./streetart2.jpg" alt="Street Art 2" height="400px" width="400px">
+    </div>
+    <div class="items item3">
+        <img src="./streetart3.jpg" alt="Street Art 3" height="400px" width="400px">
+    </div>
+    <div class="items item4">
+        <img src="./streetart4.jpg" alt="Street Art 4" height="400px" width="400px">
+    </div>
+    <div class="items item5">item5</div>
+    <div class="items item6">item6</div>
+    <div class="items item7">item7</div>
+    <div class="items item8">item8</div>
+    <div class="items item9">item9</div>
+    <div class="items item10">item10</div>
+</body>
+</html>
